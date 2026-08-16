@@ -1,0 +1,60 @@
+export const projects = [
+  {
+    id: "college-event-system",
+    title: "College Event System",
+    tagline: "Full-Stack Web Application",
+    featured: true,
+    stack: ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
+    description:
+      "A comprehensive college event management platform enabling event creation, registration, and participation for students and admins.",
+    features: [
+      "Event creation",
+      "Event registration",
+      "Student participation",
+      "Admin functionality",
+      "Role-based dashboards",
+      "Real-time event tracking",
+      "QR-based ticketing",
+    ],
+    github: "https://github.com/yesaswini19/college-event-system",
+    demo: "https://college-event-system-jade.vercel.app/",
+  },
+  {
+    id: "mealpreppro",
+    title: "MealPrepPro",
+    tagline: "Frontend Web Application",
+    featured: false,
+    stack: ["HTML", "CSS", "JavaScript"],
+    description:
+      "A responsive recipe and meal-planning website with a time-based recipe generator and weekly meal planning features.",
+    features: [
+      "Clean UI design",
+      "Enhanced user experience",
+      "Responsive web design",
+      "Recipe planning",
+      "Time-based recipe generation",
+      "Weekly meal planning",
+    ],
+    github: "https://github.com/yesaswini19/MealPrep-Pro",
+    demo: "https://yesaswini19.github.io/MealPrep-Pro/",
+  },
+  {
+    id: "smart-agri-assistant",
+    title: "Smart-Agri-Assistant",
+    tagline: "Frontend Prototype",
+    featured: false,
+    stack: ["HTML", "CSS", "JavaScript"],
+    description:
+      "A mobile-friendly AI-powered agricultural assistant with localized crop recommendations and disease detection insights.",
+    features: [
+      "Localized crop recommendations",
+      "Disease detection insights",
+      "Multilingual voice support",
+      "Multilingual chat support",
+      "Responsive layouts",
+      "Farmer accessibility",
+    ],
+    github: "https://github.com/yesaswini19/Smart-Agri-Assistant",
+    demo: "https://yesaswini19.github.io/Smart-Agri-Assistant/",
+  },
+];
