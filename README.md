@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React, Vite, and Tailwind CSS.
 
-🔗 **Live site:** https://portfolio-enpzx3y08-yesaswini19s-projects.vercel.app/
+🔗 **Live site:** https://portfolio-mab4r6sck-yesaswini19s-projects.vercel.app/
 
 ## Tech Stack
 
