@@ -41,6 +41,16 @@ function TimelineItem({ item, index }) {
       <p className="mt-2 text-muted text-sm leading-relaxed max-w-xl">
         {item.description}
       </p>
+      {item.link && (
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-2 inline-block font-mono text-xs text-accent-soft hover:underline"
+        >
+          verify certificate →
+        </a>
+      )}
     </div>
   );
 }

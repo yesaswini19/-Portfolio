@@ -20,7 +20,7 @@ export default function About() {
         <div className="md:col-span-3 space-y-5 text-muted leading-relaxed text-lg">
           <p>
             I'm a Computer Science &amp; Engineering undergraduate with a CGPA
-            of 8.64/10 and hands-on experience in full-stack development
+            of 8.67/10 and hands-on experience in full-stack development
             using React.js, Node.js, Express.js, MongoDB, and MySQL.
           </p>
           <p>

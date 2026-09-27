@@ -20,12 +20,23 @@ export default function Certifications() {
             <BadgeCheck size={20} className="text-amber mb-3" />
             <p className="font-medium text-ink leading-snug">{c.name}</p>
             <p className="mt-1 font-mono text-xs text-muted">{c.org}</p>
-            <a
-              href="#"
-              className="mt-3 inline-block font-mono text-xs text-accent-soft hover:underline"
-            >
-              add certificate link →
-            </a>
+            {c.link ? (
+              <a
+                href={c.link}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 inline-block font-mono text-xs text-accent-soft hover:underline"
+              >
+                view credential →
+              </a>
+            ) : (
+              <a
+                href="#"
+                className="mt-3 inline-block font-mono text-xs text-muted hover:underline"
+              >
+                add certificate link →
+              </a>
+            )}
           </div>
         ))}
       </div>

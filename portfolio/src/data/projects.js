@@ -3,7 +3,7 @@ export const projects = [
     id: "college-event-system",
     title: "College Event System",
     tagline: "Full-Stack Web Application",
-    featured: true,
+    featured: false,
     stack: ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
     description:
       "A comprehensive college event management platform enabling event creation, registration, and participation for students and admins.",
@@ -57,4 +57,24 @@ export const projects = [
     github: "https://github.com/yesaswini19/Smart-Agri-Assistant",
     demo: "https://yesaswini19.github.io/Smart-Agri-Assistant/",
   },
+
+{
+  id: "ap-invoice-exception-assistant",
+  title: "AP Invoice Exception Assistant",
+  tagline: "AI-Assisted Finance Automation Tool",
+  featured: true,
+  stack: ["Python", "Streamlit", "pandas", "Anthropic Claude API"],
+  description:
+    "An AI-assisted Accounts Payable tool that automatically catches invoice errors — mismatches, duplicates, missing data — before they get paid, replacing manual reconciliation with an instant, explainable exception report.",
+  features: [
+    "Rule-based exception engine (missing PO, vendor/amount/quantity mismatch, duplicate invoice, closed PO)",
+    "Real-time dashboard with exception count, rate, and dollar amount at risk",
+    "Filterable, severity-ranked exception table with plain-English reasons",
+    "One-click CSV export for the finance team",
+    "Optional AI-generated narrative summary using the Claude API",
+    "Adjustable amount/quantity tolerance thresholds",
+  ],
+  github: "https://github.com/yesaswini19/ap-invoice-exception-assistant",
+  demo: "https://ap-invoice-exception-assistant-pfcjkcwabe2g9w9lhmaexv.streamlit.app/",
+},
 ];
